@@ -1,0 +1,10 @@
+
+The lower case of A is: a
+
+The upper case of b is: B
+
+3 cubed is  27
+
+The ASCII values for 3 are:
+DECIMAL          OCTAL            HEX             
+51               03               0X3             

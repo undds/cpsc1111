@@ -1,0 +1,38 @@
+CP SC 1111: Lab 6, Spring 2022
+
+Using an editor, answer the following questions:
+
+NAME: Frank Yang
+
+---------
+example.c
+---------
+1) What is the cause of the seg fault in the program called example.c?
+
+The i value in the for loop keeps increasing past the amount of characters in the array. So when the i goes above the max amount of characters in the array, the array's value is something like negative 12 million and it will get added to the sum.
+
+
+--------
+broken.c
+--------
+2) What line in broken.c did the program seg fault on?
+line 28
+
+3) What was the value of the variable "count" at the time of the seg fault?
+10
+
+4) What was the value of the variable "i" at the time of the seg fault?
+633
+
+5) What was the value of the variable "search" at the time of the seg fault?
+1
+
+6) What are the values in the "table" array?
+5, 10, 12, 14, 16, 18, 20, 22, 24, 26
+
+7) what do you think the bug is?
+The conditional for the while loop is wrong. It should be a double equals instead of an equals sign. When the i value becomes equal to the count value and the search value turns into zero, the while loop reassigns the search back to one during the loop. 
+
+
+
+
